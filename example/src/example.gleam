@@ -42,7 +42,7 @@ pub fn main() {
   window.set_sizer(frame, main_sizer)
 
   window.show(frame)
-  process.sleep(1000 * 5)
+  process.sleep_forever()
 }
 
 @external(erlang, "wxPanel", "setSizer")
